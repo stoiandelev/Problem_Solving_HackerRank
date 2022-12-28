@@ -23,13 +23,13 @@ public class Task1_Simple_Array_Sum {
 
 
 
-        int result = Result.simpleArraySum(array);
+        int result = Result1.simpleArraySum(array);
         System.out.println(result);
     }
 
 }
 
-class Result {
+class Result1 {
 
     /*
      * Complete the 'simpleArraySum' function below.
