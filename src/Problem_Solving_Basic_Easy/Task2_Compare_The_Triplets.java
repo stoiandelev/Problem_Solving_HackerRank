@@ -14,7 +14,7 @@ public class Task2_Compare_The_Triplets {
         a = Arrays.stream(scanner.nextLine().split("\\s")).map(Integer::parseInt).toList();
         b = Arrays.stream(scanner.nextLine().split("\\s")).map(Integer::parseInt).toList();
 
-        System.out.println(Result.compareTriplets(a, b)
+        System.out.println(Result2.compareTriplets(a, b)
                 .toString()
                 .replace("[","")
                 .replace("]", ""));
@@ -22,7 +22,7 @@ public class Task2_Compare_The_Triplets {
     }
 }
 
-class Result {
+class Result2 {
 
     /*
      * Complete the 'compareTriplets' function below.
