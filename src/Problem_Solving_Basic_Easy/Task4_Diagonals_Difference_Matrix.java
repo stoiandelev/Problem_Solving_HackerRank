@@ -28,13 +28,13 @@ public class Task4_Diagonals_Difference_Matrix {
             );
         });
 
-        int result = Result.diagonalDifference(matrix);
+        int result = Result4.diagonalDifference(matrix);
 
         System.out.println(result);
     }
 }
 
-class Result {
+class Result4 {
 
     /*
      * Complete the 'diagonalDifference' function below.
