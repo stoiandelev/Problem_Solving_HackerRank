@@ -18,13 +18,13 @@ public class Task3_Very_Big_Sum {
             array.add(number);
         }
 
-        long result = Result.aVeryBigSum(array);
+        long result = Result3.aVeryBigSum(array);
         System.out.println(result);
 
     }
 }
 
-class Result {
+class Result3 {
 
     /*
      * Complete the 'aVeryBigSum' function below.
